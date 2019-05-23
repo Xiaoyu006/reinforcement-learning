@@ -10,6 +10,10 @@ from chainer import links as L
 from chainer import functions as F
 from chainer import serializers
 
+# --- Xiaoyu added two these two lines
+import sys
+sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+#--------------------------------------------------------------
 import cv2
 import numpy as np
 import re
